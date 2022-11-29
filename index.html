@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>My Todo List</title>
+  <style>
+    .app-title {
+      font-size: 40px;
+    }
+
+    .btn-add{
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="appTitle" class="app-title">
+    My Todo List (
+    <span id="itemCount">0</span>)
+  </p>
+  <input id="newTodo" onkeyup="myFunction()"/>
+  <button id="addTodo" class="btn-add">Add todo</button>
+  
+  <ul id="todoList"></ul>
+  <a id="deleteAllLink" href="javascript.deleteAllfun()">delete all</a>
+  <a id="sortLink" href="javascript.sortLinkfun()">sort list</a>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
